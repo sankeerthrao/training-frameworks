@@ -1,6 +1,9 @@
 import deepspeed
 from torch.utils.data import DataLoader, TensorDataset
+from model import SimpleNet
+
 import numpy as np
+
 
 # Initialize model
 model = SimpleNet()
